@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SMS viewer</title>
+</head>
+
+<body>
+    <form action='#' onsubmit="return false;">
+        <input type='file' id='fileinput' onchange='enableUpload()'>
+        <input type='button' id='btnLoad' value='Load' onclick='loadFile();'>
+    </form>
+    <div id="container"></div>
+
+    <script src="message.js"></script>
+    <script src="SMS.js"></script>
+    <script src="MMS.js"></script>
+    <script src="displayMessages.js"></script>
+</body>
+<html>
